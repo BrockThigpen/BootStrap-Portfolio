@@ -1,4 +1,11 @@
-
+.row{
+    justify-content: center;
+}
+#mainContent{
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    margin-top: 115px;
+}
 body{
     height: 100%;
     background-image: url("../images/criss-cross.png");
@@ -21,6 +28,9 @@ body>.container{
 nav{
     border-bottom: 2px solid #cccccc;
 }
+#navItems{
+    justify-content: flex-end;
+}
 li{
     margin-left: 10px;
 }
@@ -30,8 +40,8 @@ li:not(:last-child) {
 }
 #logo{
     background: #4aaaa5;
-    padding: 10px;
     margin: 0;
+    padding: 20px 10px 20px 10px;
     color: white;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
  }
@@ -44,11 +54,27 @@ footer{
  }
  #logoContainer{
      padding: 0;
-     
+ }
+ #profilePic{
+     float: left;
+     margin: 0 10px 10px 0;
+ }
+ #mainContentHeader{
+    border-bottom: 2px solid #cccccc;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+ }
+ .form-control{
+     border-radius: 0;
+ }
+ .btn-primary{
+     background: #4aaaa5;
+     border-radius: 0;
  }
 @media screen and (max-width: 768px){
     #logoContainer{
         padding: 0;
+        margin: 0 40px;
     }
  }
 @media screen and (max-width: 640px){
@@ -64,5 +90,11 @@ footer{
         justify-content: center;
         margin: 10px 0;
     }
-
+    #mainContent{
+        margin-top: 150px;
+    }
+    #profilePic{
+        width: 100%;
+        height: auto;
+    }
  }
