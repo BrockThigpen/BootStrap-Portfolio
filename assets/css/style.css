@@ -35,7 +35,7 @@ nav{
     justify-content: flex-end;
 }
 li{
-    margin-left: 10px;
+    margin-left: 15px;
 }
 li:not(:last-child) { 
     border-right: 1px solid #dddddd;
