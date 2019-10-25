@@ -7,7 +7,7 @@ p{
 #mainContent{
     background: #ffffff;
     border: 2px solid #dddddd;
-    margin: 115px 20px 0 20px;
+    margin: 115px 0 0 0;
     justify-content: flex-start;
 }
 body{
@@ -17,7 +17,7 @@ body{
     text-decoration: none;
 }
 div.container{
-    padding: 0;
+    /* padding: 0; */
 }
 body>.container{
     padding-top: 60px;
@@ -75,7 +75,12 @@ footer{
  .btn-primary{
      background: #4aaaa5;
      border-radius: 0;
+     border: none;
  }
+ .btn:hover {
+    outline: none;
+    background: #4aaaa5;
+  }
  .galleryPic{
     width: 200px;
     height: 200px;  
@@ -116,6 +121,7 @@ footer{
     #mainContent{
         margin-top: 150px;
         height: auto;
+        padding: 20px 0 20px 0;
     }
     #profilePic{
         width: 100%;
@@ -133,4 +139,5 @@ footer{
     #galleryWrap{
         height: auto;
     }
+
  }
